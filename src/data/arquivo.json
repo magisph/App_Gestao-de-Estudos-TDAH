@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "title": "Estrutura de Disciplinas - PWA Gestão de Estudos (TJ-CE)",
+    "source": "index (6).html",
+    "note": "Temas e subtemas extraídos do cronograma/anexo e otimizados para importação PWA."
+  },
+  "disciplinas": [
+    {
+      "id": "direito-civil",
+      "nome": "Direito Civil",
+      "slug": "direito-civil",
+      "color": "#059669",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/059669/ffffff?text=C",
+      "themes": [
+        {
+          "id": "resp-civil",
+          "nome": "Responsabilidade Civil",
+          "default_estimate_minutes": 90,
+          "subtemas": [
+            "Danhos materiais",
+            "Danhos morais",
+            "Quantificação e critérios",
+            "Juros e correção monetária",
+            "Responsabilidade civil estatal (omissão)"
+          ]
+        },
+        {
+          "id": "contratos",
+          "nome": "Contratos e Vícios",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Vícios redibitórios",
+            "Negócios jurídicos processuais",
+            "Cláusulas abusivas e tutela do consumidor (interseção)"
+          ]
+        },
+        {
+          "id": "familia",
+          "nome": "Direito de Família",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Multiparentalidade",
+            "Separação de bens (>70 anos)",
+            "Partilha e efeitos jurídicos"
+          ]
+        },
+        {
+          "id": "propriedade-usucapiao",
+          "nome": "Direitos Reais e Usucapião",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Usucapião familiar",
+            "Aquisição e requisitos",
+            "Interação com registro público"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Ao iniciar, faça um plano de 2 minutos (início) para ativar o Efeito Zeigarnik.",
+        "Fragmentar leituras longas em subtarefas de 25–45 minutos."
+      ]
+    },
+    {
+      "id": "direito-processual-civil",
+      "nome": "Direito Processual Civil",
+      "slug": "direito-processual-civil",
+      "color": "#1e40af",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/1e40af/ffffff?text=PC",
+      "themes": [
+        {
+          "id": "sentenca-civel",
+          "nome": "Sentença Cível (estrutura e prática)",
+          "default_estimate_minutes": 120,
+          "subtemas": [
+            "Estrutura do decisum",
+            "Dispositivo e consectários legais",
+            "Fundamentação (Art. 489 CPC)",
+            "Esqueleto de sentença / modelos"
+          ]
+        },
+        {
+          "id": "preliminares-prejudiciais",
+          "nome": "Preliminares e Questões Processuais",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Legitimidade",
+            "Prescrição e decadência",
+            "Prejudiciais de mérito"
+          ]
+        },
+        {
+          "id": "tutela-execucao",
+          "nome": "Tutela e Execução",
+          "default_estimate_minutes": 75,
+          "subtemas": [
+            "Tutela de urgência e estabilização",
+            "Medidas executivas atípicas",
+            "Execução fiscal (redirecionamento, IPTU, impugnações)"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Divida a redação de sentenças em: (1) esqueleto, (2) fundamentação, (3) dispositivo.",
+        "Use checklist de armadilhas processuais no final de cada esqueleto."
+      ]
+    },
+    {
+      "id": "direito-do-consumidor",
+      "nome": "Direito do Consumidor",
+      "slug": "direito-do-consumidor",
+      "color": "#065f46",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/065f46/ffffff?text=DC",
+      "themes": [
+        {
+          "id": "fraudes-digitais-consumidor",
+          "nome": "Fraudes Digitais e Responsabilidade",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Responsabilidade por fraudes via PIX e meios digitais",
+            "Fornecedores e influenciadores (equiparação)",
+            "Súmulas/STJ aplicáveis"
+          ]
+        },
+        {
+          "id": "superendividamento",
+          "nome": "Superendividamento",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Lei 14.181/21",
+            "Tutela do consumidor e soluções negociadas",
+            "Decisões práticas e medidas protetivas"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Use casos práticos (mini-questões) para fixar jurisprudência do STJ.",
+        "Anote fórmulas/tabelas de cálculos financeiros em nota retrátil."
+      ]
+    },
+    {
+      "id": "direito-crianca-adolescente",
+      "nome": "Direito da Criança e do Adolescente",
+      "slug": "direito-crianca-adolescente",
+      "color": "#0ea5a4",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/0ea5a4/ffffff?text=ECA",
+      "themes": [
+        {
+          "id": "protecao-e-provas",
+          "nome": "Proteção e Procedimentos (ECA)",
+          "default_estimate_minutes": 50,
+          "subtemas": [
+            "Depoimento especial",
+            "Produção antecipada de provas",
+            "Medidas de proteção e medidas socioeducativas"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Registrar súmulas e artigos-chave em flashcards curtos (1 frase)."
+      ]
+    },
+    {
+      "id": "direito-penal",
+      "nome": "Direito Penal",
+      "slug": "direito-penal",
+      "color": "#dc2626",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/dc2626/ffffff?text=DP",
+      "themes": [
+        {
+          "id": "dosimetria",
+          "nome": "Dosimetria da Pena",
+          "default_estimate_minutes": 90,
+          "subtemas": [
+            "Sistema trifásico",
+            "Majorantes e minorantes",
+            "Modulação e critérios concretos"
+          ]
+        },
+        {
+          "id": "crimes-especificos",
+          "nome": "Crimes de Alta Incidência",
+          "default_estimate_minutes": 90,
+          "subtemas": [
+            "Tráfico e tráfico privilegiado",
+            "Latrocínio (concurso formal vs crime único)",
+            "Estupro de vulnerável e qualificadoras",
+            "Crimes licitatórios e corrupção"
+          ]
+        },
+        {
+          "id": "acordos-e-teorias",
+          "nome": "Acordos e Teorias Penais",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Acordo de Não Persecução Penal (ANPP)",
+            "Consunção e desclassificação",
+            "Concurso de crimes (material/formal)"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Pratique dosimetrias em ciclos curtos (30–60 min) focando um aspecto por vez.",
+        "Use exercícios de aplicação de precedentes reais."
+      ]
+    },
+    {
+      "id": "direito-processual-penal",
+      "nome": "Direito Processual Penal",
+      "slug": "direito-processual-penal",
+      "color": "#991b1b",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/991b1b/ffffff?text=PPP",
+      "themes": [
+        {
+          "id": "nulidades-probatórias",
+          "nome": "Nulidades e Prova",
+          "default_estimate_minutes": 75,
+          "subtemas": [
+            "Cadeia de custódia",
+            "Frutos da árvore envenenada",
+            "Nulidades por busca e apreensão"
+          ]
+        },
+        {
+          "id": "provas-reconhecimento",
+          "nome": "Reconhecimento e Depoimentos",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Reconhecimento de pessoas",
+            "Psicologia do testemunho",
+            "Medidas cautelares e prisões"
+          ]
+        },
+        {
+          "id": "procedimentos-e-acoes",
+          "nome": "Procedimentos e Repercussões",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Art. 387 CPP (reparação de danos)",
+            "Medidas cautelares processuais",
+            "ANPP e seus efeitos processuais"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Registre imediatamente dúvidas de prova na 'captura de distrações' para revisar pós-sessão."
+      ]
+    },
+    {
+      "id": "direito-constitucional",
+      "nome": "Direito Constitucional",
+      "slug": "direito-constitucional",
+      "color": "#0f172a",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/0f172a/ffffff?text=DCt",
+      "themes": [
+        {
+          "id": "controle-convencionalidade",
+          "nome": "Controle de Convencionalidade e DH",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Direitos Humanos e tratados",
+            "Controle de convencionalidade",
+            "Jurisprudência relevante do STF"
+          ]
+        },
+        {
+          "id": "teoria-juridica",
+          "nome": "Teoria e Debate Jurídico",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Ativismo judicial",
+            "Debate Hart vs Dworkin",
+            "Fundamentos constitucionais das decisões"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Emceixe leituras teóricas em blocos curtos e mapas conceituais para fixação."
+      ]
+    },
+    {
+      "id": "direito-eleitoral",
+      "nome": "Direito Eleitoral",
+      "slug": "direito-eleitoral",
+      "color": "#9333ea",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/9333ea/ffffff?text=DE",
+      "themes": [
+        {
+          "id": "cotas-e-normas",
+          "nome": "Normas e Súmulas Eleitorais",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Cota de gênero (Súmula/TSE)",
+            "Resoluções do TSE",
+            "Regras de campanha"
+          ]
+        },
+        {
+          "id": "desinformacao",
+          "nome": "Desinformação e Poder de Polícia",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Deepfakes e regulação",
+            "Poder de polícia do TSE",
+            "Controle e sanções"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Guardar resoluções e súmulas em flashcards práticos (pergunta/resposta)."
+      ]
+    },
+    {
+      "id": "direito-empresarial",
+      "nome": "Direito Empresarial",
+      "slug": "direito-empresarial",
+      "color": "#d97706",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/d97706/ffffff?text=DEmp",
+      "themes": [
+        {
+          "id": "recuperacao-desconsideracao",
+          "nome": "Recuperação Judicial e Desconsideração",
+          "default_estimate_minutes": 75,
+          "subtemas": [
+            "Stay period (recuperação judicial)",
+            "Desconsideração da personalidade jurídica",
+            "Falência e efeitos patrimoniais"
+          ]
+        },
+        {
+          "id": "contratos-empresariais",
+          "nome": "Contratos e Operações Empresariais",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Factoring",
+            "Contratos digitais e responsabilidade",
+            "Execução fiscal empresarial"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Use casos práticos de jurisprudência para entender a aplicação em negócios reais."
+      ]
+    },
+    {
+      "id": "direito-tributario",
+      "nome": "Direito Tributário",
+      "slug": "direito-tributario",
+      "color": "#065f9c",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/065f9c/ffffff?text=DT",
+      "themes": [
+        {
+          "id": "reforma-tributaria",
+          "nome": "Reforma Tributária e ICMS",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "EC 132/2023 (Reforma)",
+            "ICMS e conflitos federativos (ADC 49/STF)",
+            "Pacto federativo e impactos práticos"
+          ]
+        },
+        {
+          "id": "execucao-fiscal",
+          "nome": "Execução Fiscal",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Procedimentos de execução fiscal",
+            "Defesas e impugnações",
+            "Tema 981 / Tema 1158 (STJ) - aplicação prática"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Concentre-se em entender os efeitos práticos das emendas/ECs, não só texto legal."
+      ]
+    },
+    {
+      "id": "direito-ambiental",
+      "nome": "Direito Ambiental",
+      "slug": "direito-ambiental",
+      "color": "#059669",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/059669/ffffff?text=DA",
+      "themes": [
+        {
+          "id": "codigo-florestal-e-litigancia",
+          "nome": "Código Florestal e Litigância Climática",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Aplicação do Código Florestal em áreas urbanas",
+            "Litigância climática (ADPF 708)",
+            "Responsabilidade por dano ambiental"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Priorizar súmulas/temas do STJ relacionados ao dano ambiental para sentenças."
+      ]
+    },
+    {
+      "id": "direito-administrativo",
+      "nome": "Direito Administrativo",
+      "slug": "direito-administrativo",
+      "color": "#2563eb",
+      "priority_default": "alta",
+      "icon": "https://placehold.co/64x64/2563eb/ffffff?text=DAmd",
+      "themes": [
+        {
+          "id": "improbidade-e-licitacoes",
+          "nome": "Improbidade Administrativa e Licitações",
+          "default_estimate_minutes": 75,
+          "subtemas": [
+            "Nova Lei de Improbidade (temas e aplicação)",
+            "Licitações (normas e crimes correlatos)",
+            "Controle administrativo e sanções"
+          ]
+        },
+        {
+          "id": "contratos-publicos",
+          "nome": "Contratos e Regulação",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Regime jurídico dos contratos públicos",
+            "Responsabilidade administrativa",
+            "Interseção com direito penal (corrupção)"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Estabelecer modelos de esqueleto de decisão para improbidade e licitação."
+      ]
+    },
+    {
+      "id": "nocoes-gerais-e-humanistica",
+      "nome": "Noções Gerais de Direito e Formação Humanística / Direitos Humanos",
+      "slug": "nocoes-humanistica-dh",
+      "color": "#0ea5a4",
+      "priority_default": "média",
+      "icon": "https://placehold.co/64x64/0ea5a4/ffffff?text=H",
+      "themes": [
+        {
+          "id": "formacao-humanistica",
+          "nome": "Formação Humanística",
+          "default_estimate_minutes": 45,
+          "subtemas": [
+            "Ativismo judicial",
+            "Debates Hart vs Dworkin",
+            "Teorias do Direito e argumentos críticos"
+          ]
+        },
+        {
+          "id": "direitos-humanos",
+          "nome": "Direitos Humanos",
+          "default_estimate_minutes": 60,
+          "subtemas": [
+            "Tratados e status constitucional",
+            "Controle de convencionalidade",
+            "Precedentes e proteção internacional"
+          ]
+        }
+      ],
+      "captureHints": [
+        "Use leituras comentadas e mapas mentais; não tente grandes capítulos de texto de uma vez."
+      ]
+    }
+  ]
+}
