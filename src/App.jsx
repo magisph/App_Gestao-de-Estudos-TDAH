@@ -1,11 +1,10 @@
-import React from 'react';
-import { AppProvider, useApp } from './contexts/AppContext';
-import { Header } from './components/Header';
-import { Sidebar } from './components/Sidebar';
-import { Dashboard } from './components/Dashboard';
-import { SessionManager } from './components/SessionManager';
-import { ProgressView } from './components/ProgressView';
-import { Calendar } from './components/Calendar';
+import { AppProvider, useApp } from '@/context/AppContext';
+import { Header } from '@/components/layout/Header';
+import { Sidebar } from '@/components/layout/Sidebar';
+import { Dashboard } from '@/components/dashboard/Dashboard';
+import { SessionManager } from '@/components/session/SessionManager';
+import { ProgressView } from '@/components/progress/ProgressView';
+import { Calendar } from '@/components/calendar/Calendar';
 import './App.css';
 
 function AppContent() {

@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useReducer, useEffect } from 'react';
-import disciplinasData from '../assets/disciplinas.json';
+import { createContext, useContext, useReducer, useEffect } from 'react';
+import disciplinasData from '../data/arquivo.json';
 import { initializePWA } from '../utils/pwaUtils';
 
 // Estado inicial
@@ -52,7 +52,7 @@ const initialState = {
   // Estado PWA
   pwa: {
     isInstalled: false,
-    isOnline: navigator.onLine,
+    isOnline: typeof navigator !== 'undefined' ? navigator.onLine : true,
     canInstall: false,
     updateAvailable: false,
     support: {}

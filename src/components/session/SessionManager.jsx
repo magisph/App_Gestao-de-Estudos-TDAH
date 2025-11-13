@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
@@ -15,12 +15,10 @@ import {
   Zap,
   MessageSquare,
   CheckCircle2,
-  AlertCircle,
-  Settings,
   Plus,
   Minus
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '@/context/AppContext';
 
 export function SessionManager() {
   const { state, dispatch, actions } = useApp();

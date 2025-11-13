@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
@@ -15,14 +14,14 @@ import {
   AlertCircle,
   CheckCircle2
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '@/context/AppContext';
 import { 
   getDaysRemaining, 
   getScheduleProgress, 
   isToday,
   formatDate,
   getCurrentDate
-} from '../utils/dateUtils';
+} from '@/utils/dateUtils';
 
 export function Dashboard() {
   const { state, dispatch, actions } = useApp();
