@@ -1,7 +1,7 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 
-export const ScrollArea = React.forwardRef(({ className, children, ...props }, ref) => (
+export const ScrollArea = forwardRef(({ className, children, ...props }, ref) => (
   <div
     ref={ref}
     className={clsx('relative overflow-y-auto', className)}

@@ -1,7 +1,7 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 
-export const Input = React.forwardRef(({ className, type = 'text', ...props }, ref) => (
+export const Input = forwardRef(({ className, type = 'text', ...props }, ref) => (
   <input
     ref={ref}
     type={type}
