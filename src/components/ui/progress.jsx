@@ -1,7 +1,7 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 
-export const Progress = React.forwardRef(({ value = 0, className, ...props }, ref) => {
+export const Progress = forwardRef(({ value = 0, className, ...props }, ref) => {
   const clamped = Math.min(100, Math.max(0, Number(value)));
 
   return (

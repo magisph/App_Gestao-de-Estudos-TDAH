@@ -1,4 +1,4 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 
 const baseStyles =
@@ -18,7 +18,7 @@ const sizeStyles = {
   lg: 'h-11 px-6 rounded-md'
 };
 
-export const Button = React.forwardRef(({ className, variant = 'default', size = 'md', ...props }, ref) => (
+export const Button = forwardRef(({ className, variant = 'default', size = 'md', ...props }, ref) => (
   <button
     ref={ref}
     className={clsx(

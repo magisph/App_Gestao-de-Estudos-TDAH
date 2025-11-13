@@ -1,7 +1,7 @@
-import React from 'react';
+import { forwardRef } from 'react';
 import clsx from 'clsx';
 
-export const Textarea = React.forwardRef(({ className, ...props }, ref) => (
+export const Textarea = forwardRef(({ className, ...props }, ref) => (
   <textarea
     ref={ref}
     className={clsx(
