@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { 
   Menu, 
@@ -11,8 +11,8 @@ import {
   BarChart3,
   Calendar
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
-import { getDaysRemaining } from '../utils/dateUtils';
+import { useApp } from '@/context/AppContext';
+import { getDaysRemaining } from '@/utils/dateUtils';
 
 export function Header() {
   const { state, dispatch, actions } = useApp();

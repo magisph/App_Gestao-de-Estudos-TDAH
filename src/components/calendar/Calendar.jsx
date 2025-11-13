@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,7 +14,7 @@ import {
   CheckCircle2,
   Plus
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '@/context/AppContext';
 import { 
   getCurrentDate, 
   getDaysRemaining, 
@@ -24,7 +24,7 @@ import {
   generateWeeklySchedule,
   getDailyStudyGoal,
   getCalendarInsights
-} from '../utils/dateUtils';
+} from '@/utils/dateUtils';
 
 export function Calendar() {
   const { state, dispatch, actions } = useApp();

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -10,7 +10,7 @@ import {
   X,
   Filter
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '@/context/AppContext';
 
 export function Sidebar() {
   const { state, dispatch, actions } = useApp();

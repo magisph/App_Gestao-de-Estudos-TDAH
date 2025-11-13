@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
@@ -14,7 +14,7 @@ import {
   CheckCircle2,
   AlertTriangle
 } from 'lucide-react';
-import { useApp } from '../contexts/AppContext';
+import { useApp } from '@/context/AppContext';
 
 export function ProgressView() {
   const { state } = useApp();
